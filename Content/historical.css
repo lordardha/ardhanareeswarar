@@ -1,0 +1,54 @@
+﻿
+.cdpQiMyRating .image{background:url('images/rating.png') no-repeat;}
+.cdpShadow{
+    -moz-box-shadow: 0 2px 1px #9c9c9c;
+	-webkit-box-shadow: 0 2px 1px #9c9c9c;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#cdpHeadSlider {
+  position: relative;
+  overflow: hidden;
+  margin:0px auto;  
+  -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:10px;
+    border:0px solid #fff;
+    transition: all 0.9s ease-in-out;
+    border:5px solid #fff;
+}
+
+#cdpHeadSlider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  list-style: none;
+}
+
+#cdpHeadSlider ul li {
+  width:950px;
+  height:475px;
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 300px;
+}
+
+.cdpBanner{
+    width:950px;
+    height:475px;
+}
+.banner1{background:url('../Tamil/images/historicalPhotos/historicalBanner1.jpg') no-repeat;}
+.banner2{background:url('../Tamil/images/historicalPhotos/historicalBanner2.jpg') no-repeat;}
+.banner3{background:url('../Tamil/images/historicalPhotos/historicalBanner3.jpg') no-repeat;}
+.banner4{background:url('../Tamil/images/historicalPhotos/historicalBanner4.jpg') no-repeat;}
+.banner5{background:url('../Tamil/images/historicalPhotos/historicalBanner5.jpg') no-repeat;}
+.banner6{background:url('../Tamil/images/historicalPhotos/historicalBanner6.jpg') no-repeat;}
+.banner7{background:url('../Tamil/images/historicalPhotos/historicalBanner7.jpg') no-repeat;}
+.banner8{background:url('../Tamil/images/historicalPhotos/historicalBanner8.jpg') no-repeat;}
+
+

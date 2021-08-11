@@ -1,0 +1,620 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="English.master.cs" Inherits="Artha.Master.English" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title> The World Renowned Arthanareeswarar - Tiruchengode </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="Arthanareeswarar, Arthanareeswarar Temple, Eswarar, Tiruchengode,Tiruchengodu,
+    Thiruchengode, Thiruchengodu, Togde, Namakkal, TamilNadu, Temple, Koil, Kovil,Ardhanareeswarar, Arthanareswarar,
+    Perumal, Sengottuvelavar, Murugar, Kongunadu, sivasthalam, Siva sthalam, Siva Temple,Lord Siva,
+    Arthanarieswarar, Arthanari, Arthanaree, Ardhanaree, Ammaiyappa, Madhorubagan, Mathorubagan,
+    Kongunadusthalam, Parvathi " />
+    <meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<%--Header text animation--%>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800' rel='stylesheet' type='text/css' />
+    <link href="../Content/animate.css" rel="stylesheet" />
+    <link href="../Content/rotator.css" rel="stylesheet" />
+<%--Header text animation--%>
+
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="../Content/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/layout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/Artha.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/ArthaSite_Tamil.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/ArthaStyles.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/arthaSubMenus.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/scroller.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../Content/annimationEffects.css" type="text/css" />  <%-- for Bounce Effects (Horizonatal / Vertical)--%>
+
+<!-- jQUERY Used -->
+<script type="text/javascript" src="../Scripts/jquery-1.4.2.js"></script>   
+<script type="text/javascript" src="../Scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="../Scripts/jquery.easing.1.2.js"></script>
+<script type="text/javascript" src="../Scripts/scroller.js"> </script>
+
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../Content/jquery.fancybox.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../Content/jquery.fancybox-buttons.css" />
+<link rel="stylesheet" type="text/css" href="../Content/jquery.fancybox-thumbs.css" />
+
+<script type="text/javascript" src="../Scripts/fancybox/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="../Scripts/fancybox/jquery.fancybox-media.js"></script>
+
+<%--for Home Icon Menu--%>
+<link rel="stylesheet" href="../Content/style_homeMenu.css" type="text/css" media="all" />
+<%--    <script type="text/javascript" src="../Scripts/homeIconMenu/jquery-css-transform.js"></script>--%>
+<script type="text/javascript" src="../Scripts/homeIconMenu/jquery-animate-css-rotate-scale.js"></script> 
+<%--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>--%>
+
+
+<script type="text/javascript">
+    //$(document).ready(function () {
+    //    //vertical
+    //    $("ul#vertical li").mouseover(function () {
+    //        $(this).stop().animate({ height: '400px' }, { queue: false, duration: 600, easing: 'easeOutBounce' })
+    //    });
+
+    //    $("ul#vertical li").mouseout(function () {
+    //        $(this).stop().animate({ height: '42px' }, { queue: false, duration: 600, easing: 'easeOutBounce' })
+    //    });
+
+    //});
+
+</script>
+
+
+<%-- Used for only home icon menu--%>
+ <style>
+            *{
+                margin:0;
+                padding:0;
+                /*background:#f9f9f9;*/
+            }
+
+/*a:hover {
+	color: blue;
+}*/
+
+            section {
+                font-family: 'Open Sans', sans-serif;
+                margin: auto;
+                max-width:1000px; 
+                padding: 20px; 
+                text-align: center; 
+            }
+            
+            hr {
+               border-top: 1px  #eee;
+                margin: 100px 0;
+            }
+
+            /*.demo1 
+            {
+                width: 900px;
+                text-align: left;
+                font-weight: 300;
+                color: #fff;
+                background: #0096d6;
+                letter-spacing:4px;
+                text-align: center;
+            }*/
+
+            .demo1 {
+                text-align: center;
+                font-weight: 300;
+            } 
+            
+            .demo1 span {
+                width: 900px;
+                font-weight: 900;
+                color: #fff;
+                background: #0096d6;
+                letter-spacing:4px;
+                margin-left:-100px;
+            }
+
+            .demo2 {
+                text-align: center;
+                font-weight: 300;
+                /*text-transform: uppercase;*/
+            }
+            .demo2 span {
+                width: 900px;
+                font-weight: 900;
+                color: #fff;
+                /*background: #2a6496;*/         
+                background: #0096d6;
+                letter-spacing:4px;
+                margin-left:-100px;
+            }
+            
+
+</style>
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+<%--Google AdSense Activation/Validation Code Start--%>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4076653375596653",
+        enable_page_level_ads: true
+    });
+</script>
+
+<%--Google AdSense Code End--%>
+
+<%--Google AdSense Auto-Add Code Start--%>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4076653375596653",
+        enable_page_level_ads: true
+    });
+</script>
+<%--Google AdSense Code End--%>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+<!-- Header Section -->
+
+<%--    <img class="headerImag" src="../Tamil/../Tamil/Images/Top.jpg" /> --%>
+
+<!-- Header Animation  -->
+            <div id="rotate-demo1" class="rotate" data-rotate-interval="4000" data-rotate-animate="fadeInDown,fadeOutDown">
+                <h2 class="demo1">  <strong><span class="rotate-arena"></span></strong></h2>
+                <ul>
+                    <li>  Lord Arthanareeswarar Temple <br /> <span style="font-size:15px;color:yellow;margin-left:100px"> Tiruchengode, Namakkal (Dist), Tamilnadu. </span> </li>
+                    <li>  அருள்மிகு அர்த்தநாரீஸ்வரர் திருக்கோவில் </span> <br /> 
+                            <span style="font-size:13px;color:yellow;margin-left:150px;font-family: Verdana, Arial, Helvetica, sans-serif;">   திருச்செங்கோடு, நாமக்கல் மாவட்டம், தமிழ்நாடு. </span></li>
+                </ul>
+
+            </div>
+            
+
+<%--        <div id="rotate-demo2" class="rotate" data-rotate-interval="4000" data-rotate-animate="rotateInDownLeft,rollOut">
+             <h2 class="demo2">  <span class="rotate-arena"></span> </h2>
+                <ul>
+                    <li>  Lord Arthanareeswarar Temple <br /> <span style="font-size:15px;color:yellow;margin-left:100px"> Tiruchengode, Namakkal (Dist), Tamilnadu. </span> </li>
+                    <li>  அருள்மிகு அர்த்தநாரீஸ்வரர் திருக்கோவில் </span> <br /> 
+                            <span style="font-size:13px;color:yellow;margin-left:150px;font-family: Verdana, Arial, Helvetica, sans-serif;">   திருச்செங்கோடு, நாமக்கல் மாவட்டம், தமிழ்நாடு. </span></li>
+                </ul>
+            </div>--%>
+
+<!-- Header Animation  -->
+
+
+        <div class="menu">
+            <div class="item">
+                <a class="link icon_home"></a>
+                <div class="item_content">
+                     <p>
+                        <a href="../tamil/default.aspx"> தமிழ் முதல் பக்கம் </a> <br />
+                        <a href="../home.aspx"> இணையதளம் முதல் பக்கம் </a> <br />
+                        <a href="../English/default.aspx">View Website in English</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+       <div class="hpMenuContainer">
+        <ul id="arthaMainMenu">
+
+            <!-- First Menu - Start -->
+            <li > <a href="#">  Temple History </a> 
+                
+                <div class="cnt_area">
+                    <div class="fpo_cnt">
+                        <div class="arthaMenuLink arthaMenu">
+                            <div class="image arthaShadow"></div>
+                            <div id="arthaMenu" class="arthaMenuBox cdpShadow">
+                                <div class="head">
+                                    <table border="1" width="95%" align="center">
+                                        <tr>
+                                            <th valign="middle">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location </th>
+                                            <th valign="middle">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; History </th>
+                                            <th valign="middle"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worship Through Steps </th>
+                                            <th> Others </th>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                                <div class="content">
+                                    <div class="drop">
+
+
+
+                                    <table border="1" width="100%" id="Table1">
+                                        <tr>
+                                            <td> <a href="../English/1_1_1.aspx"> Special  </a> </td>
+                                            <td> <a href="../English/1_2_1.aspx"> Origin of the Mountain</a> </td>
+                                            <td> <a href="../English/1_3_1.aspx"> Special </a>  </td>
+                                            <td> <a href="../English/1_4_2.aspx"> Bus Facility </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td> <a href="../English/1_1_2.aspx"> Facts of the City </a> </td>
+                                            <td> <a href="../English/1_2_2.aspx"> Names of Mountain</a> </td>
+                                            <td> <a href="../English/1_3_3.aspx"> Gopuram </a>  </td>
+                                            <td> <a href="../English/1_4_3.aspx"> Administrative </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td> <a href="../English/1_1_3.aspx"> Tip of the City </a> </td>
+                                            <td> <a href="../English/1_2_4.aspx"> Holy Tree (Sthala Vruksham) </a> </td>
+                                            <td> <a href="../English/1_3_4.aspx"> Paandeeswara's Abode  </a>  </td>
+                                        </tr>
+                                        <tr>
+                                            <td> <a href="../English/1_1_4.aspx"> The City's Special </a> </td>
+                                            <td>  </td>
+                                            <td>  <a href="../English/1_3_2.aspx"> Mandapams     </a></td>
+                                            <td> </td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+
+
+            <!-- Second Menu - Start -->
+            <li>
+<%--                <a class="active" href="/">ஸ்தல மூர்த்திகள்</a>--%>
+                <a class="active" href="#">Shrine's</a>
+                <ul>
+                    <li>
+                        <a href="../English/2_1_1.aspx">Lord Arthanareeswarar</a>
+
+                        <ul>
+                            <li> <a href="../English/2_1_1.aspx">Structure of the Lord</a> </li>
+                            <li> <a href="../English/2_1_2.aspx">Arrival of the Lord at Naagasalam</a> </li>
+                            <li> <a href="../English/2_1_3.aspx">Poojas</a> </li>
+                            <li> <a href="../English/2_1_4.aspx">Birungi Maharishi</a> </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="../English/2_2.aspx">Lord Muruga (Sengotuvelavan) </a>  </li>
+                    <li><a href="../English/2_3.aspx">Lord Aadhikesava Perumal</a> </li>
+                    <li><a href="../English/2_4.aspx">Special</a> </li>
+                    <li> <a href="../English/2_5.aspx"> Other Lords  </a> </li>
+                </ul>
+            </li>
+
+
+            <!-- Third Menu - Start -->
+            <li>
+                <a class="active" href="#">Festivals</a>
+                <ul>
+                    <li><a href="../English/3_1.aspx">Chariot Carnival  (Vaikaasi Visaakam) </a> </li>
+                    <li><a href="../English/3_2.aspx">Origin of the Chariot </a> </li>
+
+                    <li>
+                        <a href="#"> Other Poojas </a>
+
+                        <ul>
+                            <li> <a href="../English/3_3_1.aspx">Monthly </a> </li>
+                            <li> <a href="../English/3_3_2.aspx">Nageswarar Pooja</a> </li>
+<%--                            <li> <a href="3_3_3.aspx"> Naga Panchami *</a> </li>
+                            <li> <a href="3_3_4.aspx"> Padiththuiruvilza * </a> </li>
+                            <li> <a href="3_3_5.aspx"> Ketharagowri Viradham *</a> </li>--%>
+
+                        </ul>
+                    </li>   
+
+                </ul>
+            </li>
+
+
+            <!-- Fourth Menu - Start -->
+            <li>
+                <a class="active" href="#">Other Details </a>
+                <ul>
+                    <li><a href="../English/4_1.aspx"> Inscriptions </a> </li>
+                    <li><a href="../English/4_2.aspx"> Holy Ponds </a> </li>
+                    <li><a href="../English/4_3.aspx"> Girivalam </a> </li>
+<%--                    <li><a href="4_4.aspx"> New Moon Day * </a> </li>--%>
+                    <li><a href="../English/4_5.aspx"> Renovation  </a> </li>
+                    <li><a href="../English/4_6.aspx"> Sculptures </a> </li>
+                    <li><a href="../English/4_7.aspx"> Literatures  </a> </li>
+                    <li><a href="../English/4_8.aspx"> Route Map</a> </li>
+<%--                    <li><a href="4_9.aspx"> பக்தி பாடல்கள் </a> </li>--%>
+<%--                    <li><a href="4_10.aspx"> Temple Liturgy *  </a> </li>--%>
+                    <li><a href="../English/4_11.aspx"> Pancha Pandavas Bed </a> </li>
+                    <li><a href="../English/4_12.aspx"> Biladwara Caves </a> </li>
+                    <li><a href="../English/4_13.aspx"> Sub Temples  </a> </li>
+                </ul>
+                </li>
+
+            <!-- Fifth Menu - Start -->
+            <li>
+                <a class="active" href="#">Important Events </a>
+                <ul>
+<%--                    <li><a href="6_6.aspx"> Landslide at Mountain  </a> </li>--%>
+                    <li><a href="../English/6_1.aspx"> Golden Chariot </a> </li>
+
+                    <li><a href="../English/6_5.aspx">  Golden Flag </a> </li>
+
+                    <li><a href="../English/6_2_1.aspx"> Kumbabishekam  </a> 
+
+                    <ul>
+                        <li> <a href="../English/6_2_1.aspx"> Temple Kumbabishekam </a> </li>
+<%--                        <li> <a href="6_2_2.aspx"> உச்சிபிள்ளையார் </a> </li>
+                        <li> <a href="6_2_3.aspx"> துணை கோவில்கள்</a> </li>--%>
+                    </ul>
+
+                    </li>
+ 
+<%--                    <li><a href="6_3.aspx"> ஜல பூஜை</a> </li>
+                    <li><a href="6_4.aspx"> 63 நாயன்மார்கள் </a> </li>--%>
+
+                </ul>
+            </li>
+
+
+
+
+
+            <!-- Sixth Menu - Start -->
+            <li> <a class="active" href="#"> Photo Gallery</a>
+            <ul>
+                <li> <a href="#">  LORD  </a>
+
+                <ul>
+                    <li> <a href="../English/arthaPhotos.aspx"> Arthanareeswarar </a> </li>
+                    <li> <a href="../English/murugarPhotos.aspx"> Muruga  </a> </li>
+                    <li> <a href="../English/perumalPhotos.aspx"> Aadhikesava Perumal  </a> </li>
+                    <li> <a href="../English/VaganaUzha.aspx"> Lords Holy Trip </a> </li>
+                    <li> <a href="../English/otherGods.aspx"> Other Lords  </a> </li>
+                </ul>
+                </li>
+                <li> <a href="#"> Major Events   </a>
+                    <ul>
+                        <li><a href="../English/goldenChariotPhotos.aspx"> Golden Chariot </a>  </li>
+                        <li><a href="../English/goldenKodimaram.aspx">  Golden Flag </a> </li>
+                        <li><a href="../English/hillKumphabhisekam.aspx"> Temple Kumbabishekam </a> </li>
+                        <li><a href="../English/uchiPillayarKump.aspx">  Uchi pillayar Kumbabishekam </a> </li>
+                        <li> <a href="../English/templeKumphabhisekam.aspx"> SubTemple Kumbabishekam  </a> </li>
+                        <li><a href="../English/jalaPooja.aspx"> Jala Pooja </a> </li>
+                        <li><a href="../English/63moovarVizha12.aspx"> 63 Nayanmarkal </a> </li>
+                        <li> <a href="../English/historicalPhotos.aspx"> Historical Photos</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"> SubTemples  </a>
+                    <ul>
+                        <li><a href="../English/kailasaNatharTemple.aspx"> Kailasanathar Temple </a> 
+                        <li><a href="../English/Bathrakalliamman.aspx"> Bathrakaliamman Temple </a> 
+                    <ul>
+                        <li><a href="../English/Bathrakalliamman.aspx">  Photo Gallery </a> </li>
+                        <li><a href="../English/Bathrakalliamman10.aspx">  Navarathiri Photos 2010</a> </li>
+                        <li><a href="../English/Bathra_Kumbha10.aspx">  Kumbabishekam 2010</a> </li>
+                    </ul>
+                            </li>
+                        <li> <a href="../English/periyaMariyamman.aspx"> Peria Maariamman temple </a> </li>
+                        <li> <a href="../English/AbathuKathaVinayakar.aspx"> Aabathu Kaatha Vinayakar Temple </a> </li>
+                        <li> <a href="../English/arumugaSwamy.aspx"> Aarumugaswamy Temple  </a> </li>
+                        <li><a href="#"> Oongali Amman Temple </a> 
+                    <ul>
+                        <li><a href="../English/oongaliAmman15.aspx">  Oongali Amman Festival 2015</a> </li>
+                        <li><a href="../English/oongaliAmman12.aspx">  Oongali Amman Festival 2012</a> </li>
+                        <li><a href="../English/oongaliAmman11.aspx">  Oongali Amman Festival 2011</a> </li>
+                    </ul>
+                       </li>
+
+                        <li><a href="#"> Other Temples </a> 
+                        <ul> 
+                        <li><a href="../English/IyyappanPooja.aspx"> Iyappan Temple </a> </li>
+                        <li><a href="../English/perumalCHB.aspx"> Perumal Temple (CHB COLONY)  </a> </li>
+                        <li><a href="../English/anjaneyar.aspx"> Aanjayaneyar  </a> </li>
+                        <li><a href="../English/otherTemples.aspx"> Other Temples  </a> </li>
+                            
+                        </ul>
+                        </li>
+                    </ul> 
+
+                </li>
+
+                <li>
+                    <a href="../English/visakam15.aspx">  Chariot Carnival   </a>
+
+                    <ul>
+                        <li> <a href="../English/visakam15.aspx"> 2015 </a> </li>
+                        <li> <a href="../English/visakam14.aspx"> 2014 </a> </li>
+                        <li> <a href="../English/visakam13.aspx"> 2013 </a> </li>
+                        <li> <a href="../English/visakam12.aspx"> 2012 </a> </li>
+                        <li> <a href="../English/visakam11.aspx"> 2011 </a> </li>
+                        <li> <a href="../English/visakam10.aspx"> 2010 </a> </li>
+                        <li> <a href="../English/visakam09.aspx"> 2009 </a> </li>
+                        <li> <a href="../English/visakam08.aspx"> 2008 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/deepam14.aspx">  Kaarthigal Deepam  </a>
+
+                    <ul>
+                        <li> <a href="../English/deepam14.aspx"> 2015 </a> </li>
+                        <li> <a href="../English/deepam12.aspx"> 2012 </a> </li>
+                        <li> <a href="../English/deepam11.aspx"> 2011 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/nageswarar15.aspx">  Nageswarar Pooja   </a>
+
+                    <ul>
+                        <li> <a href="../English/nageswarar15.aspx"> 2015 </a> </li>
+                        <li> <a href="../English/nageswarar10.aspx"> 2010 </a> </li>
+                        <li> <a href="../English/nageswarar09.aspx"> 2009 </a> </li>
+                        <li> <a href="../English/nageswarar08.aspx"> 2008 </a> </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <a href="../English/nagaPanchami15.aspx"> NagaPanjami   </a>
+
+                    <ul>
+                        <li> <a href="../English/nagaPanchami15.aspx"> 2015 </a> </li>
+                        <li> <a href="../English/nagaPanchami10.aspx"> 2010 </a> </li>
+                        <li> <a href="../English/nagaPanchami12.aspx"> 2012 </a> </li>
+                        <li> <a href="../English/nagaPanchami09.aspx"> 2009 </a> </li>
+                        <li> <a href="../English/nagaPanchami08.aspx"> 2008 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/masiMakam15.aspx"> Masi Makam   </a>
+
+                    <ul>
+                        <li> <a href="../English/masiMakam15.aspx"> 2015 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/chitraPavurnami10.aspx"> Chitra Pavurnami  </a>
+
+                    <ul>
+                        <li> <a href="../English/chitraPavurnami10.aspx"> 2010 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/gowriViratham13.aspx"> Ketharagowri viradham   </a>
+
+                    <ul>
+                        <li> <a href="../English/gowriViratham13.aspx"> 2013 </a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="../English/padiPooja.aspx"> Other Festivals </a>
+
+                    <ul>
+                        <li> <a href="../English/padiPooja.aspx"> Padiththuiruvilza </a> </li>
+                    </ul>
+                </li>
+    </ul>
+    </li>
+
+            <!-- Seventh Menu - Start -->
+            <li>
+                    <a href="#"> Services Throug Web </a>
+                        <ul>
+                            <li> <a href="../English/7_1.aspx">Highlights </a> </li>
+                            <li> <a href="../English/7_2.aspx"> Calendar Versions</a> </li>
+                            <li> <a href="../English/7_3.aspx"> Short Film (DVD) About Temple </a> </li>
+                        </ul>
+            </li>
+
+
+            <!-- Eight Menu - Start -->
+            <li> <a class="active" href="../English/8.aspx"> Contact Us</a> </li>
+
+
+  </ul>
+</div>
+    <div id="toprowhead" style="background-color: #FF8000; height: 3px; width:1200px; padding: 0px; margin: 0px; margin-top: 7px; display: block; "></div>
+
+
+<!-- PlaceHolder Section -->
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+<!-- Footer Section -->
+
+    <div class="arthaRow">
+    <div id="Div1" style="background-color: #FF8000; height: 3px; width:1200px; padding: 0px; margin: 0px; margin-top: 7px; display: block; "></div>
+        <div class="footer">
+            <div style="float: left; font-weight: bold; "> &nbsp; © Copyright 2018. All rights reserved. Contact:   Dr.Muthukumar Murugesan  </div>
+            <div style="float: right; font-weight: bold;"> &nbsp; Best viewed in IE version 10 and above with 1600 x 900 resolution  &nbsp;</div>
+        </div>
+    </div>
+    </form>
+
+
+<%--    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>--%>
+    <script src="../Scripts/jquery.rotator.js"></script>
+        <script>
+
+            jQuery(document).ready(function () {
+
+                jQuery(".rotate").rotator();
+
+            });
+
+            $('.item').hover(
+                function () {
+                    var $this = $(this);
+                    expand($this);
+                },
+                function () {
+                    var $this = $(this);
+                    collapse($this);
+                }
+            );
+            function expand($elem) {
+                var angle = 0;
+                var t = setInterval(function () {
+                    if (angle == 1440) {
+                        clearInterval(t);
+                        return;
+                    }
+                    angle += 40;
+                    $('.link', $elem).stop().animate({ rotate: '+=-40deg' }, 0);
+                }, 10);
+                $elem.stop().animate({ width: '268px' }, 1000)
+                .find('.item_content').fadeIn(400, function () {
+                    $(this).find('p').stop(true, true).fadeIn(600);
+                });
+            }
+            function collapse($elem) {
+                var angle = 1440;
+                var t = setInterval(function () {
+                    if (angle == 0) {
+                        clearInterval(t);
+                        return;
+                    }
+                    angle -= 40;
+                    $('.link', $elem).stop().animate({ rotate: '+=40deg' }, 0);
+                }, 10);
+                $elem.stop().animate({ width: '52px' }, 1000)
+                .find('.item_content').stop(true, true).fadeOut().find('p').stop(true, true).fadeOut();
+            }
+        </script>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+﻿/**
+ * @section Form buttons
+ * @subsection Common styles for form buttons
+ */
+button {border:none;}
+button:hover {cursor:pointer;}
+
+.button input {border: none; font: inherit; color: inherit; background: transparent; overflow: visible;}
+/**
+ * @section Inline Action buttons
+ * @subsection Common styles for inline action buttons
+ */
+.button {font-family:"HP Simplified",Arial; -moz-border-radius: 0 4px; border-radius: 0 4px; padding: 0 20px; display: inline-block; height: 40px;}
+.button .btn_label, .button input {text-transform: none; line-height: 38px; font-size: 20px; font-weight: bold; border: none}
+.button:hover, .button:focus { background-color: #d6492d; text-decoration: none; cursor:pointer;}
+.button:visited span{color: #ffffff;}
+.button { background-color:#f05332; }
+a.button, a.button:hover,a.button:focus {color: #fff;text-decoration:none}
+.button.inline .btn_label {line-height: 34px; font-size: 16px;}
+.button.inline input {height: 36px;font-size: 18px;}
+.button.inline {height: 36px; padding: 0 15px}
+.button.slim .btn_label, .slim input {color:#fff; line-height: 26px; font-size: 14px; margin-bottom: 1px}
+.button.slim input {height: 26px}
+.button.slim {height: 26px; padding: 0 10px;}
+
+
+/**
+ * @section Inline Action buttons
+ * @subsection Styles for cancel button
+ */
+.button.cancel, .button.cancel input { color: #ffffff; background-color: #767676;cursor: pointer; }
+.button.cancel:hover, .button.cancel:hover input, .button.cancel:focus, .button.cancel:focus input  { background-color: #5a5a5a; }
+.button.cancel_disabled:hover,.button.cancel_disabled:focus, .button.cancel_disabled,
+.button.cancel_disabled input { color: #5e5e5e; background-color: #d9d9d9; cursor: default; }
+
+/**
+ * @section Inline Action buttons
+ * @subsection Styles for primary button
+ */
+.button.primary, .button.primary input { color: #ffffff; background-color: #0096d6; cursor: pointer;}
+.button.primary:hover, .button.primary:hover input,.button.primary:focus, .button.primary:focus input { background-color: #006699;}
+.button.primary_disabled:hover,.button.primary_disabled:focus, .button.primary_disabled,
+.button.primary_disabled input {color: #5e5e5e; background-color: #d9d9d9; cursor: default; }
+/**
+ /**
+ * @section Inline Action buttons
+ * @subsection Styles for secondary button
+ */
+.button.secondary, .button.secondary input { color: #ffffff; background-color: #767676; }
+.button.secondary:hover, .button.secondary:hover input,.button.secondary:focus, .button.secondary:focus input { background-color: #5a5a5a; }
+.button.secondary_disabled:hover,.button.secondary_disabled:focus, .button.secondary_disabled,
+.button.secondary_disabled input {color: #5e5e5e; background-color: #d9d9d9; cursor: default; }

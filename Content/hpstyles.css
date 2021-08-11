@@ -1,0 +1,184 @@
+﻿
+.layout_100{width:999px; display:inline-block; clear:both; padding:0px; margin:0px; }
+.box_100 {width:950px; margin:10px;clear:both; display:block; }
+.align-center {text-align:center;}
+
+div[class^='box_'] h2 {color:#222; margin:10px; padding:0px;}
+
+
+/******** FORMS *************/
+
+
+
+.listbox_300 {width:300px;}
+.listbox {
+    display:inline-block;
+    
+}
+
+.listbox .list_col_0 {display:inline-block;}
+.listbox .list_col_0 .inputbox,
+.listbox .list_col_1 {display:inline-block; vertical-align:top;}
+.listbox .list_col_1 a {margin:0px; display:block; }
+.listbox .list_col_1 a:hover {cursor:pointer;}
+.listbox .list_col_1 a[class*='disabled'] {cursor:auto;}
+.listbox .thelist > select {width:99.9%; vertical-align:top; padding:5px; }
+.listbox .thelist {vertical-align:top; }
+
+
+
+
+.listbox .additem {
+    display:block;  
+}
+.listbox .additem .inputbox {
+    display:inline-block;
+    width:60%;
+    border:1px solid blue;
+}
+.listbox .additem .inputcontrol {
+    display:inline-block;
+    width:28%;
+    border:1px solid yellow;
+}
+.listbox .thelist{}
+
+
+.width_50 {width:50px;}
+.width_75 {width:75px;}
+.width_100 {width:100px;}
+.width_150 {width:150px;}
+.width_200 {width:200px;}
+.width_250 {width:250px;}
+.width_300 {width:300px;}
+.width_325 {width:325px;}
+.width_350 {width:350px;}
+.width_500 {width:500px;}
+
+
+input {padding:5px; border:1px solid #999; width:287px;}
+
+.floatbox {
+    border:1px dotted #aaa;
+    margin-bottom:15px;
+}
+
+#mskWorld { position:absolute; top:0; left:0; z-index:9999; opacity:0; display:block;}
+#mskWrapper {z-index:99999; width:650px; height:450px; position:fixed; background-color:#fff; border:5px solid #333; padding:10px; 
+             border-radius:15px;
+}
+#mskWrapper #content {position:relative; background-color:#fff; width:inherit; margin:0px; overflow-y:scroll; top:35px; overflow-x:hidden;}
+#mskWrapper #mskCloseBtn {width:50px; height:30px; position:absolute; top:2px; right:5px; font-weight:bold; text-decoration:underline; color:#f61818; }
+#mskWrapper #mskCloseBtn:hover {cursor:pointer;}
+
+#waitWorld { position:absolute; top:0; left:0; z-index:999999999; opacity:0; display:block;}
+#waitWrapper {z-index:999999; position:fixed; background-color:transparent; border:none; padding:10px; }
+
+.modalWorld { background-color:#2c2c2c;}
+.maskWorld {background-color:#2c2c2c; }
+.waitWorld { background-color:#fff;}
+
+.waitImage1 {background:transparent url('images/loadinghp.gif') 6px 0px no-repeat; width:320px; height:90px;}
+.waitImage1 div {display:inline-block;font:bold 14px/18px 'HP Simplified'; color:#0096d6; padding-left:55px; margin-top:15px;}
+
+/*#mskWorld #mskWrapper #content #mskDataLoading,
+#mskModal #mskDataLoading {
+    background:transparent url('images/loadinghp.gif') 0px 0px no-repeat;
+    width:36px; height:36px;
+}*/
+
+div#mskDataLoading {
+    background:transparent url('images/loadinghp.gif') 0px 0px no-repeat;
+    color:#0096d6; font-weight:bold;
+    min-height:40px;
+    padding-left:60px;
+    margin-left:30px;
+}
+
+#mskModal { position:absolute; top:0; left:0; z-index:9999; opacity:0; display:block;}
+#dialogWrapper {z-index:99999; width:450px; height:150px; position:fixed; background-color:#fff; border:5px solid #333; padding:10px; 
+             border-radius:15px;
+}
+#dialogWrapper {overflow-y:visible;}
+#dialogWrapper .controlbox {text-align:right;}
+#dialogWrapper #mskCloseBtn a {color:#e12828; font-weight:bold; text-decoration:none;}
+#dialogWrapper .responsebox {margin-top:10px; display:block; height:38px; text-align:center;}
+#dialogWrapper .responsebox #btnNo {margin-left:30px; width:55px; }
+#dialogWrapper .responsebox #btnYes {width:55px; }
+#dialogWrapper .content #content {vertical-align:top; font:15px/22px 'HP Simplified'; word-break:break-all; word-wrap:break-word;}
+
+.pathidden {display:none; visibility:hidden;}
+
+.tabControl ul li{ background-color:#e7e7e7; border:1px solid #e7e7e7; margin-left:0px; float:left; display:inline-block;}
+.tabControl ul li a {padding:10px; font-weight:bold; color:#333; text-decoration:none;}
+.tabControl ul li a:hover {background-color:#f3f3f3;}
+
+
+
+
+.my-custom-select {width:300px;}
+
+
+
+.htmlactionlink {color: #0096D6;font-family:'HP Simplified';font-size:small;}
+
+
+
+
+.banner{margin:20px 0}
+.banner h1{font-size: 32px; line-height: 32px; margin-bottom:4px}
+
+
+
+.lay_100, .lay_33_33_33, .lay_25_25_25_25 {
+    width: 998px;
+    background: #fff;
+    padding: 0px 0;
+}
+
+.cnt_area {
+    border: 0px solid black;
+}
+.fpo_cnt{border:0px solid green;}
+.lay_100 .fpo_cnt{overflow:hidden;margin: 20px 18px;}
+.lay_100 .no_margin {margin-left: 0!important; margin-right: 0 !important;}
+
+/* lay_33_33_33*/
+.lay_33_33_33 {position:relative;}
+.lay_33_33_33 .cnt_area {float:left}
+.lay_33_33_33 .cnt_area .fpo_cnt{width:295px}
+.lay_33_33_33 .vert_divider,
+.lay_33_33_33 .vert_divider_2{width:0; position:absolute; top:10px; bottom:30px;  border-left: 1px solid #CCC; border-right: 1px solid #FFF}
+.lay_33_33_33 .vert_divider{left:332px;}
+.lay_33_33_33 .vert_divider_2{left:666px;}
+.lay_33_33_33 .fpo_cnt{margin: 0px 0px 0px 0px}
+.lay_33_33_33 .last_cnt .fpo_cnt{margin: 0px opx}
+table.lay_33_33_33 .cnt_area{padding-bottom: 20px}
+table.lay_33_33_33 .cnt_area .fpo_cnt{width:100px; }
+table.lay_33_33_33 .fpo_cnt{margin: 0px 0px 0px 0px}
+table.lay_33_33_33 .last_cnt .fpo_cnt{margin: 20px 17px}
+table.lay_33_33_33 .vert_divider{left:317px;}
+table.lay_33_33_33 .vert_divider_2{left:637px;} 
+
+/* lay_25_25_25_25*/
+.lay_25_25_25_25{position:relative;}
+.lay_25_25_25_25 .cnt_area {float:left;width:200px; }   /* Gaps BW circle DIV - Muthu */
+.lay_25_25_25_25 .vert_divider,
+.lay_25_25_25_25 .vert_divider_2,
+.lay_25_25_25_25 .vert_divider_3{width:0; position:absolute; top:10px; bottom:30px;  border-left: 1px solid #CCC; border-right: 1px solid #FFF}
+.lay_25_25_25_25 .vert_divider{left:249px;}
+.lay_25_25_25_25 .vert_divider_2{left:499px;}
+.lay_25_25_25_25 .vert_divider_3{left:749px;}
+.lay_25_25_25_25 .fpo_cnt{margin: 20px 18px}
+table.lay_25_25_25_25 .cnt_area{padding-bottom: 5px}
+table.lay_25_25_25_25 .vert_divider{left:237px}
+table.lay_25_25_25_25 .vert_divider_2{left:477px}
+table.lay_25_25_25_25 .vert_divider_3{left:717px}
+table.lay_25_25_25_25 .cnt_area {width:239px}
+table.lay_25_25_25_25 .cnt_area .fpo_cnt{width:202px}
+table.lay_25_25_25_25 .cnt_area_3 .fpo_cnt{margin-left:19px}
+table.lay_25_25_25_25 .cnt_area_4 .fpo_cnt{margin-left:19px} 
+
+
+/******************* My Layout **************************/
+
